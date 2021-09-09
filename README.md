@@ -7,8 +7,8 @@
 This document gives information on following topics:
 
 * [Introduction](#Introduction)
-* [Data Exploration](#Data Exploration)
-* [Data Analysis](#Data Analysis)
+* [Data Exploration](#Data-Exploration)
+* [Data Analysis](#Data-Analysis)
 
 ## Introduction
 ### Main information
