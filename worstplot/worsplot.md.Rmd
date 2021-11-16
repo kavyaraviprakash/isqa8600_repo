@@ -21,7 +21,7 @@ services.cleaned %>%
   title = "Proportion of events offered for each age group")
 ```
 
-![](worstplot/fig_1.png)<!-- -->
+![](image/fig_1.png)<!-- -->
 
 
 
