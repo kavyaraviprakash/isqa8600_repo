@@ -43,7 +43,7 @@ services.cleaned %>%
   title = "likelihood_insured vs avg_rate")
 ```
 
-![](worstplot/fig_2.png)<!-- -->
+![](image/fig_2.png)<!-- -->
 
 
 
@@ -58,4 +58,4 @@ ggplot(services.cleaned, aes(x=is_billed, y=state)) +
              color="darkred")
 ```
 
-![](worstplot/fig_3.png)<!-- -->
+![](image/fig_3.png)<!-- -->
