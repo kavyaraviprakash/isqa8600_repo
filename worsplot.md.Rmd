@@ -1,7 +1,4 @@
----
-title: "worstplot"
-output: pdf_document
----
+
 # Worstplot
 
 ## Q1. Boxplot(event_name vs age)
