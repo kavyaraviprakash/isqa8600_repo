@@ -3,7 +3,7 @@
 # Bar Graph
 **Different programs offered in each state**
 
-      ![](isqa8600_repo/Data_Exploration/fig1.png)<!-- -->
+      ![](isqa8600_repo/fig1.png)<!-- -->
 
 ```{r}
 services.cleaned %>%
