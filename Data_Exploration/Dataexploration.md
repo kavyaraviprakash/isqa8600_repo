@@ -17,7 +17,7 @@ services.cleaned %>%
   
 ```
 
-![]figures/fig1.png)<!-- -->
+![](figures/fig1.png)<!-- -->
         
         
 **Analysis**
