@@ -17,7 +17,7 @@ services.cleaned %>%
   
 ```
 
-![](isqa8600_repo/Data_Exploration/fig1.png)<!-- -->
+![](Data_Exploration/figures/fig1.png)<!-- -->
         
         
 **Analysis**
