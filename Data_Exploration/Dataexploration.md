@@ -3,8 +3,6 @@
 # Bar Graph
 **Different programs offered in each state**
 
-      ![](isqa8600_repo/fig1.png)<!-- -->
-
 ```{r}
 services.cleaned %>%
   drop_na(program_name) %>%
@@ -16,7 +14,12 @@ services.cleaned %>%
          
   labs(x="age",y="Number",
   title = "Different programs offered with each age group")
+  
 ```
+
+![](Data_Exploration/figures/fig1.png)<!-- -->
+        
+        
 **Analysis**
 
 With my below analysis, the boxplot was performed on combination of categorical and numerical variable and so here I had to analyze different programs that have been offered for each age group and with our result we could see that Mental health program was offered and which is common to all age groups among HFS services.
