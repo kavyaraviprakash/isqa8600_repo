@@ -63,7 +63,8 @@ With my below analysis, the scatterplot was performed on combination of categori
 
 ```{r}
 ggplot(data = services.cleaned) + geom_point(mapping = aes(x = age, y = state))
-```         
+``` 
+![](figures/fig6.png)<!-- -->
 
 **Analysis:** 
 
