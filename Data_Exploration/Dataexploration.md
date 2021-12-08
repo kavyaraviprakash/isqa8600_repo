@@ -48,19 +48,19 @@ Here in this analysis we are observing total number of observations of age recor
 **Scatter plot with two variables**
 **Event_name and Age**
 
-          ![](isqa8600_repo/fig3.png)<!-- -->
-
 ```{r}
 ggplot(data = services.cleaned) + geom_point(mapping = aes(x = age, y = event_name))
 ```
+
+![](figures/fig3.png)<!-- -->
+
  **Analysis:** 
 
 With my below analysis, the scatterplot was performed on combination of categorical and numerical variable so here I had to analyze different events that have been identified in each age group and most common events that have been common in each age group are Individual Therapy and Admission. Session.
 
 
 **Age and State**
-         ![](isqa8600_repo/fig4.png)<!-- -->
-         
+
 ```{r}
 ggplot(data = services.cleaned) + geom_point(mapping = aes(x = age, y = state))
 ```         
@@ -71,22 +71,23 @@ With my below analysis, the scatterplot was performed on combination of two cate
 
 **Scatter plot with three variables**
 **Age, State and is_billable**
-            ![](isqa8600_repo/fig5.png)<!-- -->
-            
+  
 ```{r}
 ggplot(data = services.cleaned) + geom_point(mapping = aes(x = age, y = state, color = is_billable))
 ```
+![](figures/fig4.png)<!-- -->
+
 **Analysis**
 
 With my below analysis, the scatterplot was performed on combination of two categorical variable and one numerical variable so here I had to analyze different age groups that have been identified in each state and almost it was found that is_billable was found false in each IA (Iowa) and Nebrask (NE). The orange colour depicts "is_billable" to be false.
 
 ## Faceted Plot with Two Variables
 **Age and State**
-          ![](makkamRPlot_files/figure-gfm/avgLikelihoodByRace-1.png)<!-- -->
-          
 ```{r}
 ggplot(data = services.cleaned) + geom_point(mapping = aes(x = age, y = state)) + facet_grid(. ~ state)
-```          
+``` 
+
+![](figures/fig5.png)<!-- -->
 **Analysis**
 
 With my below analysis, the wanted to try faceted plot as a combination of two categorical variable  so here I had to analyze different age groups that have been identified in each state and almost it was found that is_billable was found false in each IA (Iowa) and Nebrask (NE). The orange colour depicts "is_billable" to be false.
