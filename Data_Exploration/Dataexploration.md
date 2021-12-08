@@ -17,7 +17,7 @@ services.cleaned %>%
   
 ```
 
-![](figures/fig1.png)<!-- -->
+![](figures/fig2.png)<!-- -->
         
         
 **Analysis**
@@ -25,8 +25,6 @@ services.cleaned %>%
 With my below analysis, the boxplot was performed on combination of categorical and numerical variable and so here I had to analyze different programs that have been offered for each age group and with our result we could see that Mental health program was offered and which is common to all age groups among HFS services.
 
 **Number of age groups present in HFS**
-
-        ![](isqa8600_repo/fig2.png)<!-- -->
         
 ```{r observationsByAge, echo=TRUE}
 services.cleaned %>%
@@ -38,6 +36,9 @@ services.cleaned %>%
        title = "Number of observations per age")
             
 ```
+
+![](figures/fig1.png)<!-- -->
+
 **Analysis**
 
 Here in this analysis we are observing total number of observations of age records that present in the HFS data, so I considered a single categorical variable, where in x axis is considered to be age. drop_na is used to remove the NA values that are present in the age column.With our analysis we could find that age 25-40 had more number of observations recorded in the HFS data.
